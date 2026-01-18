@@ -1,7 +1,5 @@
 # 🍔 Retro Burger - Landing Page
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
-
 Uma Landing Page completa e responsiva desenvolvida para uma hamburgueria artesanal fictícia. O projeto foca em design moderno, navegação intuitiva e conversão de clientes através de links diretos para WhatsApp e Maps.
 
 ## Preview
