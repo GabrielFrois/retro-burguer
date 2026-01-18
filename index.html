@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Burger</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <a href="#" id="brand">Retro<span class="highlight">Burger</span> <i class="fas fa-hamburger"></i></a>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#menu">Cardápio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li>
+                        <a href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido." target="_blank" class="btn-nav">
+                            <i class="fab fa-whatsapp"></i> Peça Agora
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>O Verdadeiro Sabor <br><span class="text-primary">Artesanal</span></h1>
+            <p>Blend de carnes selecionadas, pão brioche caseiro e molhos secretos desde 1995.</p>
+            <a href="#menu" class="btn-cta">Ver Cardápio <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <div class="feature-box">
+                <i class="fas fa-utensils"></i>
+                <h3>Ingredientes Frescos</h3>
+                <p>Vegetais colhidos no dia e carne moída na hora, sem conservantes.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Entrega Rápida</h3>
+                <p>Seu lanche chega quentinho em até 30 minutos na zona sul.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-fire"></i>
+                <h3>Grelhado no Fogo</h3>
+                <p>Aquele sabor defumado inconfundível que só a grelha garante.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2 class="section-title">Nossos Favoritos</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="img-container" style="background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="item-info">
+                        <h3>Classic Cheddar</h3>
+                        <p>180g de blend, cheddar inglês, cebola caramelizada.</p>
+                        <span class="price">R$ 32,90</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="img-container" style="background-image: url('https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="item-info">
+                        <h3>Bacon Blast</h3>
+                        <p>Duplo smash burger, muito bacon crocante e maionese verde.</p>
+                        <span class="price">R$ 38,90</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="img-container" style="background-image: url('https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="item-info">
+                        <h3>Veggie Supreme</h3>
+                        <p>Hambúrguer de grão de bico, rúcula e tomate seco.</p>
+                        <span class="price">R$ 29,90</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container flex-container">
+            <div class="about-text">
+                <h2>Nossa História</h2>
+                <p>Fundada em uma garagem, a Retro Burger nasceu da paixão por fazer as coisas do jeito antigo: sem pressa e com muito sabor.</p>
+                <p>Acreditamos que um bom hambúrguer é capaz de mudar o dia de qualquer pessoa.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Hamburgueria+Retro+Burger" target="_blank" class="btn-secondary">
+                    <i class="fas fa-map-marker-alt"></i> Venha nos visitar
+                </a>
+            </div>
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interior da Hamburgueria">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Siga-nos nas Redes Sociais</h2>
+            <p>Acompanhe as novidades e promoções diárias.</p>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5511999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    <div class="container footer-content">
+        <p>&copy; 2024 Retro Burger. Todos os direitos reservados.</p>
+        <p class="developer">
+            Desenvolvido por <a href="https://github.com/GabrielFrois" target="_blank">Gabriel Frois</a>
+        </p>
+    </div>
+</footer>
+
+    <script src="/src/js/scripts.js"></script>
+</body>
+</html>
