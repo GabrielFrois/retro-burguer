@@ -1,11 +1,12 @@
-# 🍔 Retro Burger - Landing Page
+# Retro Burger
 
 Uma Landing Page completa e responsiva desenvolvida para uma hamburgueria artesanal fictícia. O projeto foca em design moderno, navegação intuitiva e conversão de clientes através de links diretos para WhatsApp e Maps.
 
 ## Preview
 
 ![Preview](/src/img/preview.png)
-## 🛠️ Funcionalidades
+
+## Funcionalidades
 
 - **Design Responsivo:** Layout adaptável para Desktops, Tablets e Smartphones.
 - **Menu de Navegação Fixo:** Com rolagem suave (Smooth Scroll) entre as seções.
