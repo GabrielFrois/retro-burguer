@@ -4,7 +4,7 @@ Uma Landing Page completa e responsiva desenvolvida para uma hamburgueria artesa
 
 ## Preview
 
-![Previwe](/src/img/preview.png)
+![Preview](/src/img/preview.png)
 ## 🛠️ Funcionalidades
 
 - **Design Responsivo:** Layout adaptável para Desktops, Tablets e Smartphones.
@@ -37,4 +37,4 @@ git clone [https://github.com/GabrielFrois/retro-burger.git](https://github.com/
 3. Abra o arquivo index.html no seu navegador de preferência.
 
 ## Créditos de Imagens
-As imagens utilizadas neste projeto foram obtidas gratuitamente através do ![Unsplash](https://unsplash.com/pt-br):
+As imagens utilizadas neste projeto foram obtidas gratuitamente através do [Unsplash](https://unsplash.com/pt-br)
