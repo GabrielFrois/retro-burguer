@@ -32,7 +32,7 @@ Uma Landing Page completa e responsiva desenvolvida para uma hamburgueria artesa
 ## Como executar o projeto
 1. Faça o clone deste repositório:
 ```Bash
-git clone [https://github.com/GabrielFrois/retro-burger.git](https://github.com/GabrielFrois/retro-burger.git)
+git clone https://github.com/GabrielFrois/retro-burguer.git
 ```
 2. Navegue até a pasta do projeto.
 3. Abra o arquivo index.html no seu navegador de preferência.
